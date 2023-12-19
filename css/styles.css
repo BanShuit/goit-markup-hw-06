@@ -939,3 +939,20 @@ position: absolute;
 .close-icon{
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal_positon{
+
+}
+.wrapper {
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+position: relative;
+}
+
+label {
+    display: flex;
+        width: 360px;
+        flex-direction: column;
+        gap: 8px;
+}
