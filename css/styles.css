@@ -939,11 +939,12 @@ position: absolute;
 .close-icon{
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* modal  */
 .modal_position{
     display: flex;
     position: fixed;
     top: 0;
-    left: 3px;
+    left: 0;
     width: 102%;
     height: 102%;
     justify-content: center;
@@ -955,7 +956,14 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal_p{
-
+color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 .modal_svg{
     position: absolute;
@@ -971,11 +979,24 @@ textarea {
 }
 .button_modal{
     background-color: #4D5AE5;
-        width: 169px;
-        margin-left: 100px;
+    width: 169px;
+    margin-left: 59px;
+    color: #FFF;
 }
 .input {
     width: 90%;
     color: #8E8F99;
     margin-bottom: 26px;
+    
+}
+.color_modal_p{
+    color: #4D5AE5;
+    text-decoration-line: underline;
+}
+
+.modal_svg:hover{
+    color: #4D5AE5;
+}
+label {
+    color: #8E8F99;
 }
