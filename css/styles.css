@@ -943,12 +943,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 3px;
     width: 102%;
     height: 102%;
     justify-content: center;
     align-items: center;
-    padding: 20px;
     border-radius: 10px;
 }
 .wrapper {
