@@ -965,6 +965,7 @@ color: #2E2F42;
 .modal_svg{
     position: absolute;
     transform: translateY(20%);
+    fill: currentColor;
 
 }
 textarea {
