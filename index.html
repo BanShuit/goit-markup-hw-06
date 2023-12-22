@@ -364,40 +364,38 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="close-button" data-modal-close>
-            <svg class="close-icon" width="8" height="8">
-                <use href="./images/icons.svg#icon-close"></use>
-            </svg>
- 
-    </div>
-
-    <div class="modal_position">
-    <form class="wrapper">
-        <div>
-        <p class="modal_p">Leave your contacts and we will call you back</p>
+                <svg class="close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
         </div>
-        <div class="">
-    <label for="name">Name</label>
+        
+    <form class="modal_position">
+        <div>
+            <p class="modal_p">Leave your contacts and we will call you back</p>
+        </div>
+    <label class="wrapper" for="name">Name</label>
     <div class="wrapper">
         <svg class="modal_svg" width="18" height="18">
             <use href="./images/icons.svg#icon-person"></use>
         </svg>
         <input class="input" type="text" id="name" required />
     </div>
-    <label for="phone">Phone</label>
+    <label class="wrapper" for="phone">Phone</label>
     <div class="wrapper">
         <svg class="modal_svg" width="18" height="18">
             <use href="./images/icons.svg#icon-phone-black"></use>
         </svg>
         <input class="input" type="tel" id="phone" required />
     </div>
-    <label for="email">Email</label>
+    <label class="wrapper" for="email">Email</label>
     <div class="wrapper">
         <svg class="modal_svg" width="18" height="18">
             <use href="./images/icons.svg#icon-Seend"></use>
         </svg>
         <input class="input" type="email" id="email" required />
     </div>
-    <label for="comment">Comment</label>
+    <label class="wrapper" for="comment">Comment</label>
     <div class="wrapper">
         <textarea id="comment" name="comment" rows="4"></textarea>
     </div>
@@ -405,15 +403,11 @@
             <input type="checkbox" required id="term-condition" />
             <label for="term-condition">I accept the terms and conditions of the<div class="color_modal_p"> Privacy Policy</div></label>
         </div>
-        </div>
         <div>
             <button class="button_modal" type="submit">Send</button>
             </div>
     </form>
-    </div>
-    <script src="./js/modal.js" >
-        
-    </script>
+    <script src="./js/modal.js" ></script>
     
 </body>
 
