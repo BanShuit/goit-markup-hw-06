@@ -941,18 +941,12 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* modal  */
 .modal_position{
-    display: flex;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 102%;
-    height: 102%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
+        top: 30%;
+        left: 43%;
 }
-.wrapper {
-
+.wrapper:hover {
+color: #4D5AE5;
 }
 
 .modal_p{
@@ -964,6 +958,7 @@ color: #2E2F42;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    margin-bottom: 24px;
 }
 .modal_svg{
     position: absolute;
@@ -995,7 +990,7 @@ textarea {
 }
 
 .modal_svg:hover{
-    color: #4D5AE5;
+    fill: #4D5AE5;
 }
 label {
     color: #8E8F99;
