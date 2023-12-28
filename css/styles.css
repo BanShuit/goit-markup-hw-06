@@ -1037,6 +1037,11 @@ textarea {
     
 }
 
+.input-container {
+
+
+}
+
 .color_modal_p {
     color: #4D5AE5;
     text-decoration-line: underline;
@@ -1105,4 +1110,8 @@ textarea:hover{
     color:#8e8f99;
 
 
+}
+
+.button_modal_down{
+    display: grid;
 }
