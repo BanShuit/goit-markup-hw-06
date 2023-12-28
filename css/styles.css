@@ -1179,9 +1179,20 @@ color: #ffffff;
 
 .svg_sub{
     margin-left: 16px;
-
+    position: absolute;
+    fill: currentColor;
+    top: 41%;
+    right: 39px;
+    fill: #FFFFFF;
 }
 
 .sub_page{
     display: flex;
+}
+.butt_sub_pos {
+    display: flex;
+        justify-content: center;
+        position: relative;
+        top: 23px;
+        right: 26px;
 }
