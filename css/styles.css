@@ -64,14 +64,13 @@ padding-right: 15px;*/
     font-style: normal;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 17px;
 }
 .first-menu-item  {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-footer {
-    
+    margin-bottom: 17px;
 }
 .menu-header-nav .link {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1077,11 +1076,6 @@ margin-bottom: 16px;
     
 }
 
-.modal_svg:hover {
-    fill: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .labelki {
     color: #8E8F99;
     font-family: "Roboto", sans-serif;
@@ -1118,7 +1112,7 @@ color: #4D5AE5;
 textarea:focus{
     border-color: #4D5AE5;
 }
-input:hover{
+input:focus{
     border-color: #4D5AE5;
 }
 
@@ -1229,8 +1223,7 @@ color: #ffffff;
  }
  
  .icon-subscribe{
-    fill:#FFF;
-    margin-left: 16px; 
+    fill:#FFF; 
  } 
 
  .contener-subb {
