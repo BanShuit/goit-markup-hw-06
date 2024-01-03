@@ -34,6 +34,7 @@ padding-right: 15px;*/
 .link {
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 14px;
 }
 
 .link:focus {
@@ -305,7 +306,6 @@ footer {
 
 .head-twoss {
     color: var(--color-text);
-    font-family: Roboto;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -314,6 +314,7 @@ footer {
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
+    font-family: Roboto;
 }
 
 .list-name {
@@ -367,7 +368,6 @@ ul ol {
 
 .four-class-one {
     color:var(--color-text);
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -375,6 +375,7 @@ ul ol {
     letter-spacing: 0.4px;
     text-align: center;
     margin-bottom: 8px;
+    font-family: Roboto;
 }
 
 
@@ -493,7 +494,9 @@ img {
     padding-bottom: 188px;
 }
 
-.head-one-style {}
+.head-one-style {
+
+}
 
 .selection-two-padding {
     padding: 120px;
@@ -502,7 +505,6 @@ img {
 .styles-section-two {
     display: flex;
     gap: 24px;
-    /* width: calc((100%-72px)/4);*/
 }
 
 .list-style {
@@ -755,7 +757,9 @@ p {
     justify-content: center;
 }
 
-.container-five {}
+.container-five {
+
+}
 
 .svg-click {
     width: 104px;
@@ -994,8 +998,7 @@ textarea {
     color: var(--white-background);
     display: block;
     min-width: 169px;
-    height: 56px;
-    font-family: "Roboto"; 
+    height: 56px; 
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -1004,8 +1007,8 @@ textarea {
     border-radius: 4px;
     font-size: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    font-family: "Roboto", sans-serif;
     margin-left: 94px;
+    font-family: "Roboto", sans-serif;
 }
 
 .button_modal:hover {
@@ -1142,22 +1145,13 @@ input:focus{
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .label-text-for {
-    fill:#FFF;
+    fill:var(--white-background);
 }
 .span_label:checked{
 color: var(--button-one);
 }
 .label-text-for:checked{
 color: var(--button-one);
-}
-
-input:checked+.span_label {
-    background-color: var(--marka-color);
-    border: none;
-}
-
-input:checked+.span_label svg {
-    fill: var(--cloud-color);
 }
 
 .link_modla{
